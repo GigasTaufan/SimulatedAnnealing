@@ -11,13 +11,13 @@ if __name__=="__main__":
     x2 = float(random.uniform(-10,10))
 
     T = 100
-    T_akhir = 0.001
+    T_final = 0.001
     deltaT = 0.009
 
     currentState = function(x1,x2)
     best = currentState
 
-    while(T > T_akhir):
+    while(T > T_final):
         x1 = float(random.uniform(-10,10))
         x2 = float(random.uniform(-10,10))
         newState = function(x1,x2)
